@@ -5,6 +5,10 @@ function busca (array, de, ate, valorBuscado){
     const meio = Math.floor((de + ate)/2);
     const atual = array[meio];
 
+    if ( de > ate){
+        return -1;
+    }
+
     if(atual.preco === valorBuscado) {
         return meio;
     }
