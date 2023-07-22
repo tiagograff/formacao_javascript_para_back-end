@@ -13,3 +13,6 @@ const novoAdmin = new Admin('rodrigo','r@r.com','2023/07/21');
 console.log(novoAdmin.nome);
 novoAdmin.nome = '';
 console.log(novoAdmin.nome);
+
+const novoDocente = new Docente('guilherme','gui@guilherme.com', '2023/07/2023');
+console.log(novoDocente.exibirInfos());

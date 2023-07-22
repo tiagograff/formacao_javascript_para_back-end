@@ -9,6 +9,10 @@ export default class Admin extends User {
         return `curso de ${nomeDoCurso} criado com ${vagas} vagas`
     }
 
+    exibirInfos(){
+        return` ${this.nome}`
+    }
+
 }
 
 // const novoAdmin = new Admin('rodrigo', 'rodrigo@gmail', '2021/02/02');
